@@ -1,0 +1,109 @@
+# Nmap 7.991 scan initiated Sat Oct 10 14:14:39 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -oN C:\\Users\\injma\\Desktop\\week-1-network-recon\\scans\\192.168.1.10-services.txt 192.168.1.10
+Nmap scan report for 192.168.1.10
+Host is up (0.00057s latency).
+Not shown: 982 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1031/tcp open  msrpc         Microsoft Windows RPC
+1034/tcp open  zincite-a?
+1035/tcp open  multidropper?
+1036/tcp open  nsstp?
+1037/tcp open  ams?
+1038/tcp open  mtqp?
+1039/tcp open  sbl?
+1040/tcp open  netsaint?
+1041/tcp open  danf-ak2?
+1043/tcp open  boinc?
+1044/tcp open  dcutility?
+1045/tcp open  fpitp?
+1047/tcp open  neod1?
+1048/tcp open  neod2?
+3306/tcp open  mysql         MySQL (unauthorized)
+9 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1034-TCP:V=7.991%I=7%D=10/10%Time=6AC9FAFE%P=i686-pc-windows-window
+SF:s%r(NULL,40,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\
+SF:x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\
+SF:r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GetReques
+SF:t,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x
+SF:17\0\x19\0\x1b\0\x1d\0\x1f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1035-TCP:V=7.991%I=7%D=10/10%Time=6AC9FB03%P=i686-pc-windows-window
+SF:s%r(JavaRMI,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13
+SF:\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1036-TCP:V=7.991%I=7%D=10/10%Time=6AC9FAFE%P=i686-pc-windows-window
+SF:s%r(NULL,40,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\
+SF:x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\
+SF:r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLi
+SF:nes,60,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x
+SF:0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1037-TCP:V=7.991%I=7%D=10/10%Time=6AC9FAFE%P=i686-pc-windows-window
+SF:s%r(NULL,40,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\
+SF:x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\
+SF:r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLi
+SF:nes,60,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x
+SF:0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1038-TCP:V=7.991%I=7%D=10/10%Time=6AC9FAFE%P=i686-pc-windows-window
+SF:s%r(NULL,40,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\
+SF:x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\
+SF:r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLi
+SF:nes,60,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x
+SF:0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1039-TCP:V=7.991%I=7%D=10/10%Time=6AC9FAFE%P=i686-pc-windows-window
+SF:s%r(NULL,40,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\
+SF:x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\
+SF:r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLi
+SF:nes,60,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x
+SF:0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1040-TCP:V=7.991%I=7%D=10/10%Time=6AC9FAFE%P=i686-pc-windows-window
+SF:s%r(NULL,40,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\
+SF:x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\
+SF:r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLi
+SF:nes,60,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x
+SF:0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1041-TCP:V=7.991%I=7%D=10/10%Time=6AC9FAFE%P=i686-pc-windows-window
+SF:s%r(NULL,40,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\
+SF:x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\
+SF:r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLi
+SF:nes,60,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x
+SF:0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1043-TCP:V=7.991%I=7%D=10/10%Time=6AC9FAFE%P=i686-pc-windows-window
+SF:s%r(NULL,40,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\
+SF:x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\
+SF:r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLi
+SF:nes,60,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x
+SF:0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 10 14:14:52 2026 -- 1 IP address (1 host up) scanned in 13.29 seconds
